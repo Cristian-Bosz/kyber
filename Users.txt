@@ -1,15 +1,15 @@
-Hola pame/santi, te pongo aca los usuarios de la pagina, porque las contraseñas estan hasheadas en la base de datos. Y quizas te resulta mas comodo. 
+Para la persona que este leyendo esto, aca le dejo los usuarios administradores para que pueda loguearse y acceder a funcinalidades exclusivas como por ejemplo el panel de administracion.
 
-Usuario admin: 
-nombre: cristian
-contraseña: 123456
-
-
-Usuario admin: 
-nombre: santi
-contraseña: 123456
+User admin: 
+name: cristian
+password: 123456
 
 
-Usuario común
-nombre: pame
-contraseña: 123456
+User admin: 
+name: santi
+password: 123456
+
+
+User común
+name: pame
+password: 123456
