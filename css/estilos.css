@@ -1,0 +1,387 @@
+
+html{
+		background-color: black !important;
+        color: black !important;
+}
+.gracias{
+     font-family: "Open Sans Light", sans-serif;
+}
+
+.botonera{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:rgb(228, 228, 228) !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+/*logo*/
+#logo {
+            font-size: 10;
+            position: relative;
+            top: 8px;
+            left: 20px;
+            z-index: 1;
+            font-family: "Despairs", sans-serif;
+            color: white;
+        }
+
+/**/
+
+.fondo_blogs{
+    background-image: url("../img/wallpapers/stars.jpg") !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+footer{
+	background-color: black;
+	max-width: 100%
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    background: url("https://cdn.shopify.com/s/files/1/0474/3131/9718/files/product-card-base.png") transparent no-repeat;
+    background-color: transparent;
+    background-size: auto;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 50px 15px 30px;
+}
+.card-body-cart {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    background: url("https://cdn.shopify.com/s/files/1/0474/3131/9718/files/product-card-base.png") transparent no-repeat;
+    background-color: transparent;
+    background-size: auto;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 50px 15px 30px;
+}
+.card-body-perfil {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    background: url("../img/sw-card.png") transparent no-repeat;
+    background-color: transparent;
+    background-size: auto;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 50px 15px 30px;
+}
+label {
+    display: block;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+#show_password{
+height: 40px;
+margin-top: 6px;
+}
+
+/*icono corazon productos*/
+
+.fas.fa-heart{
+    color: rgb(241, 191, 98);
+}
+.fas.fa-heart:visited{
+    color: rgb(255, 174, 24);
+}
+
+/*navbar corazon y carrito*/
+.far.fa-heart{
+    color: rgb(241, 191, 98);
+}
+.far.fa-heart:hover{
+    color: rgb(255, 174, 24);
+}
+
+.fa-cart-plus{
+    color:rgb(241, 191, 98);
+}
+.fa-cart-plus:hover{
+    color:rgb(255, 174, 24);
+}
+
+.fa-shopping-cart{
+    color:rgb(241, 191, 98);
+}
+.fa-shopping-cart:hover{
+    color:rgb(255, 174, 24);
+}
+/*redes sociales*/
+.fa-instagram{
+    color:rgb(241, 191, 98)
+}
+.fa-instagram:hover{
+    color:rgb(255, 174, 24);
+}
+.fa-facebook{
+    color:rgb(241, 191, 98)
+}
+.fa-facebook:hover{
+    color:rgb(255, 174, 24);
+}
+.fa-twitter{
+    color:rgb(241, 191, 98)
+}
+.fa-twitter:hover{
+    color:rgb(255, 174, 24);
+}
+.fa-youtube{
+    color:rgb(241, 191, 98)
+}
+.fa-youtube:hover{
+    color:rgb(255, 174, 24);
+}
+
+/*pastillas*/
+.fa-rocket{
+    color: rgb(255, 174, 24);
+}
+.fa-file-invoice-dollar{
+    color: rgb(255, 174, 24);
+}
+.fa-money-check-alt{
+    color: rgb(255, 174, 24);
+}
+.fa-headset{
+    color: rgb(255, 174, 24);
+}
+
+.display-6{
+    font-weight: 400 !important 
+}
+
+
+.pastillitas-product{
+    background-color: rgb(34, 34, 34) !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.product-pills{
+    font-size: 18px !important;
+}
+
+
+
+.fa-check{
+    color:white
+}
+
+.fa-tools{
+    color:white
+}
+.fa-slash{
+    color:white
+}
+.fa-plug{
+    color:white
+}
+
+.trash-mobile{
+    display: none;
+}
+
+ /* Style buttons */
+ .btn-wish {
+    background-color: black; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  .resumen-mobile{
+    display: none;
+    }
+.check-nombre{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-apellido{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-tel{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-dni{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-email{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-pais{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-direccion{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-postal{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-provincia{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-barrio{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-calle{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-numero{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}.check-piso{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+/* Breakpoint  formato pc, arriba de los 991px*/
+@media screen and (max-width: 1140px) {
+    .follow{
+        border-left: 1px solid grey;
+    }
+    .profile{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+/* Breakpoint formato tablet*/
+@media screen and (max-width: 990px) {
+.follow{
+    border-top: 1px solid grey;
+}
+.textoredes{
+    margin-top: 1em;
+}
+
+
+
+h2{
+    letter-spacing: 0.1em !important;
+    font-size: 30px !important;
+    line-height: 27px !important;
+    margin-bottom: 10px !important;
+}
+.fallen-order h2{
+    letter-spacing: 0.1em !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    margin-bottom: 10px !important;
+    text-align: center;
+}
+.fallen-order p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.historia h2{
+    letter-spacing: 0.1em !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    margin-bottom: 10px !important;
+}
+.historia p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.pastillitas p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.copyright p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contacto p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contacto h2{
+    letter-spacing: 0.1em !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    margin-bottom: 10px !important;
+}
+
+
+.pastilla_jumbotron_img{
+    max-width: 55px;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+.fondo_blogs{
+    background-image: none !important;
+}
+.trash-pc{
+    display: none;
+}
+.trash-mobile{
+    display: block;
+}
+.card-body-perfil {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    background: url("https://cdn.shopify.com/s/files/1/0474/3131/9718/files/product-card-base.png") transparent no-repeat;
+    background-color: transparent;
+    background-size: auto;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 50px 15px 30px;
+}
+.profile{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.resumen-pc{
+    display: none;
+}
+.resumen-mobile{
+    display: block;
+    }
+.bi-cart{
+    color: rgb(28, 99, 75);
+}
+
+}

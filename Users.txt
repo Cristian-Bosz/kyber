@@ -1,0 +1,15 @@
+Hola pame/santi, te pongo aca los usuarios de la pagina, porque las contraseñas estan hasheadas en la base de datos. Y quizas te resulta mas comodo. 
+
+Usuario admin: 
+nombre: cristian
+contraseña: 123456
+
+
+Usuario admin: 
+nombre: santi
+contraseña: 123456
+
+
+Usuario común
+nombre: pame
+contraseña: 123456
