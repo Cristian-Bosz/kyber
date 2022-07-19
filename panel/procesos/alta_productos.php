@@ -1,6 +1,8 @@
 <?php
 require_once('../../config/config.php');
 require_once('../../config/funciones.php');
+require_once('../../bootstrap/autoload.php');
+
 
 
 $errores = [];
@@ -64,19 +66,19 @@ if (count($errores)) {
 
 
 
-$imagen = mysqli_real_escape_string($cnx, $nombre_imagen) ?? null;
+$img = mysqli_real_escape_string($cnx, $nombre_imagen) ?? null;
 $nombre = mysqli_real_escape_string($cnx, $_POST['nombre']);
 $descripcion = mysqli_real_escape_string($cnx, $_POST['descripcion']);
 $precio = mysqli_real_escape_string($cnx, $_POST['precio']);
-$categoria = mysqli_real_escape_string($cnx, $_POST['categoria']);
-$color = mysqli_real_escape_string($cnx, $_POST['color']);
-
-$insert = "INSERT INTO productos (img, nombre, descripcion, precio, categorias_id_fk, colores_id_fk) 
-VALUES ('$imagen', '$nombre', '$descripcion',  $precio, $categoria, $color)";
-$res_insert = mysqli_query($cnx, $insert);
+$categorias_id_fk = mysqli_real_escape_string($cnx, $_POST['categoria']);
+$colores_id_fk = mysqli_real_escape_string($cnx, $_POST['color']);
 
 
-if($res_insert){
+$prod = new Producto($img, $nombre, $descripcion, $precio, $categorias_id_fk, $colores_id_fk, $cnx);
+$rta = json_decode($prod->cargar());
+
+
+if($rta->status){
     header("Location: ../panel.php?seccion=listado_productos&status=ok&accion=creado");
     exit;
 }else{

@@ -3,7 +3,9 @@
 <?php
 require_once('config/config.php');
 require_once('config/arrays.php');
-require_once('Config/funciones.php');
+require_once('config/funciones.php');
+
+
 ?>
 
 <head>
